@@ -1,6 +1,6 @@
 # Site-Y Expansion for Old World Blues, circa 6/23
 
-Yeah hi,
+Yeah,
 whoever decided to come here hi :)
 My names Slappy!!1111!!!!!
 how are youu :)
