@@ -1,0 +1,112 @@
+#not entirely sure why I dumped this in this early
+##probably did it to make life easier later on when I did make extra characters
+###had the complete opposite idea
+####Alabaster's character file is weird since he operates as every political party leader
+#####not to mention the other person in here
+
+characters = {
+	SIY_agent_alabaster = {
+		name = SIY_AGENT_ALABASTER
+		portraits = {
+			army = {
+				large = "gfx/leaders/SIY/portrait_agent_alabaster.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/SIY/portrait_agent_alabaster.dds"
+			}
+		}
+		field_marshal = {
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+			traits = {
+				perceptive_trait
+				enduring_trait
+				inspirational_trait
+				tight_nuts_trait
+			}
+		}
+		country_leader = {
+			desc = SIY_AGENT_ALABASTER_DESC
+			ideology = peoples_militia
+			traits = {
+				survivalist
+			}
+			expire = "3000.01.01.01"
+		}
+		country_leader = {
+			desc = SIY_AGENT_ALABASTER_DESC
+			ideology = technocracy
+			traits = {
+				survivalist
+			}
+			expire = "3000.01.01.01"
+		}
+		country_leader = {
+			desc = SIY_AGENT_ALABASTER_DESC
+			ideology = militarist_technocracy
+			traits = {
+				survivalist
+			}
+			expire = "3000.01.01.01"
+		}
+		country_leader = {
+			desc = SIY_AGENT_ALABASTER_DESC
+			ideology = military_government
+			traits = {
+				survivalist
+			}
+			expire = "3000.01.01.01"
+		}
+	}
+	# SIY_technician_morse = {
+	# 	name = SIY_TECHNICIAN_MORSE
+	# 	portraits = {
+	# 		army = {
+	# 			large = "gfx/leaders/SIY/portrait_agent_alabaster.dds"
+	# 		}
+	# 		civilian = {
+	# 			large = "gfx/leaders/SIY/portrait_agent_alabaster.dds"
+	# 		}
+	# 	}
+	# 	corps_commander = {
+	# 		skill = 3
+	# 		attack_skill = 2
+	# 		defense_skill = 2
+	# 		planning_skill = 3
+	# 		logistics_skill = 3
+	# 		traits = {
+	# 			intelligent_trait
+	# 			lucky_trait
+	# 			robotics_expert_trait
+	# 			tech_wizard_trait
+	# 		}
+	# 	}
+	# }
+	# SIY_operator_line = {
+	# 	name = SIY_OPERATOR_LINE
+	# 	portraits = {
+	# 		army = {
+	# 			large = "gfx/leaders/SIY/portrait_agent_alabaster.dds"
+	# 		}
+	# 		civilian = {
+	# 			large = "gfx/leaders/SIY/portrait_agent_alabaster.dds"
+	# 		}
+	# 	}
+	# 	corps_commander = {
+	# 		skill = 3
+	# 		attack_skill = 2
+	# 		defense_skill = 2
+	# 		planning_skill = 3
+	# 		logistics_skill = 3
+	# 		traits = {
+	# 			strong_trait
+	# 			charismatic_trait
+	# 			agile_trait
+	# 			urban_assault_specialist
+	# 		}
+	# 	}
+	# }
+}
