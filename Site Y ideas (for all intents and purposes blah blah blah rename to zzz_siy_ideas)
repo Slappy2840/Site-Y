@@ -1,0 +1,70 @@
+#same as everything else
+##added one unique idea "Power Armor Based Relgion" as of now
+###do the thing
+
+
+ideas = {
+	country = {
+		SIY_illfated_expedition = {
+			picture = generic_dice
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				decryption_factor = 0.15
+				research_speed_factor = 0.05
+				justify_war_goal_time = -0.25
+			}
+		}
+		SIY_plagued_lands = {
+			picture = generic_bio
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				enemy_justify_war_goal_time = -0.20
+				monthly_population = -0.50
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				attrition = 0.05
+
+				# Pretty sure this is only for the unit leader scope, but it kinda adds flavor?
+				# sickness_chance = 0.50
+				# wounded_chance_factor = 0.30
+			}
+		}
+		SIY_resourceful = {
+			picture = generic_backpack
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				equipment_capture = 0.10
+				conscription_factor = 0.08
+			}
+		}
+		SIY_successful_expedition = {
+			picture = generic_bio
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				decryption_factor = 0.15
+				research_speed_factor = 0.10
+				justify_war_goal_time = -0.25
+				political_power_factor = 0.15
+			}
+		}
+		SIY_PA_religion = {
+			picture = recruitment_power_armor
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				modifier_army_sub_unit_power_armour_attack_factor = 0.075
+				modifier_army_sub_unit_power_armour_defence_factor = 0.075
+				special_forces_min = 30
+			}
+		}
+	}
+}
