@@ -1,0 +1,104 @@
+#since my dumbass forgot to disable the other mod in progress "Bloody Springs, Open For Business" before starting development on Site Y, it needs it to run for some godforsaken reason.
+##couldnt post the code in my private discord for whatever reason, nor in Zac's discord dms, tried steam aswell, but it also breaks, causing me to make this account.
+###I hate paradox modding.
+
+focus_tree = {
+	id = SIY_focus
+	country = {
+		factor = 1
+		modifier = {
+			add = 10
+			original_tag = SIY
+			
+		}
+	}
+	focus = {
+		id = siy_rude_awakening
+		icon = GFX_goal_max_airship_down
+		cost = 7
+		x = 20
+		y = 0
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = { id = nf_siy_beginning.1 }
+		}
+	}
+	focus = {
+		id = siy_that_fateful_expedition
+		icon = GFX_goal_max_medical_wonders
+		cost = 7
+		prerequisite = {
+			focus = siy_rude_awakening
+		}
+		x = 0
+		y = 1
+		relative_position_id = siy_rude_awakening
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = nf_siy_beginning.2
+		}
+	}
+	focus = {
+		id = siy_impending_doom
+		icon = GFX_goal_max_conquering_the_mountain
+		cost = 7
+		prerequisite = {
+			focus = siy_that_fateful_expedition
+		}
+		x = 0
+		y = 1
+		relative_position_id = siy_that_fateful_expedition
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = nf_siy_beginning.3
+		}
+	}
+	focus = {
+		id = siy_blues
+		icon = GFX_goal_max_clogged_streets
+		cost = 7
+		prerequisite = {
+			focus =  siy_impending_doom
+		}
+		x = 0
+		y = 1
+		relative_position_id = siy_impending_doom
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = nf_siy_beginning.4
+	}
+}
+
+		focus = {
+		id = siy_commandeer_pa
+		icon = GFX_goal_max_city_exploration
+		cost = 15
+		x = -1
+		y = 1
+		relative_position_id = siy_blues
+		prerequisite = {
+			focus = siy_blues
+		}
+		completion_reward = {			
+		add_equipment_to_stockpile = {
+				type = power_armor_equipment_0
+				amount = 500
+				producer = USA
+		}
+	}
+}
+		focus = {
+		id = siy_reach_out
+		icon = GFX_goal_max_we_still_have_a_mission
+		cost = 15
+		x = 1
+		y = 1
+		relative_position_id = siy_blues
+		prerequisite = {
+			focus = siy_blues
+		}
+		completion_reward = { 
+		country_event = { nf_siy_bourbon.1
+		}
+	}
+}
