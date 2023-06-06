@@ -1,0 +1,11 @@
+﻿l_english:
+ nf_siy_beginning.1.t:0 "An Aching Head, a Sore Back, And a Stolen Airship"
+ nf_siy_beginning.1.d:0 "
+ 
+ nf_siy_beginning.2.t:0 "A,B,C X,Y,Z"
+ nf_siy_beginning.2.d:0 "§B No, no,§! §BNO! §BYOU'VE GOT TO ME KIDDING ME§! \n §2 What is it this time, sir? \n §BThe last terminal in this godforsaken hospital just died on me,§! §Rwe have no way of contacting home§! \n §BFind the closest largescale"
+ nf_siy_beginning.2.a:0 "§R This just keeps getting better, doesnt it."
+ 
+ nf_siy_beginning.3.t:0 "Barbarians at the gate"
+ nf_siy_beginning.3.d:0 "§2...What do you mean, sir?§! \n §BExactly what I said before, what in the sam hell are these things!§! \n §2I thought you would've remembered them, they're what put us in the situation we're in. Regardless, we're not yet sure, after the assault we can try to preform autopsies, but I would hold off if I were you, sir.§! \n §BFirst of all, cut the sir shtick, just call me Felix, for my sake. Second of all, why not? We need anything and everything we can get on these things.§! \n §2They carry some kind of disease which turns them into what they are, judging from the locals its safe to say it infects mainly ghouls, we are not yet sure what the effects are on humans.§!"
+ nf_siy_beginning.3.a:0 "§R Well, get to chopping!§!"
