@@ -1,0 +1,54 @@
+#first attempt at making the events
+##like everything else, needs to be recoded into UTF-8-BOM 
+###I should proobably stick that in the README for easier access but whatever
+
+add_namespace = nf_siy_beginning
+
+country_event = {
+    id = nf_siy_beginning.1
+    title = nf_siy_beginning.1.t
+    desc = nf_siy_beginning.1.d
+    is_triggered_only = yes
+    option = {
+        name = nf_siy_beginning.1.a
+    }
+}
+country_event = {
+    id = nf_siy_beginning.2
+    title = nf_siy_beginning.2.t
+    desc = nf_siy_beginning.2.d
+    is_triggered_only = yes
+    option = {
+        name = nf_siy_beginning.2.a
+    }
+}
+country_event = {
+    id = nf_siy_beginning.3
+    title = nf_siy_beginning.3.t
+    desc = nf_siy_beginning.3.d
+    is_triggered_only = yes
+    option = {
+        name = nf_siy_beginning.3.a
+    }
+}
+country_event = {
+    id = nf_siy_beginning.4
+    title = nf_siy_beginning.4.t
+    desc = nf_siy_beginning.4.d
+    is_triggered_only = yes
+    option = {
+        name = nf_siy_beginning.4.a
+    }
+}
+
+add_namespace = nf_siy_bourbon
+
+country_event = {
+    id =  nf_siy_bourbon.1
+    title =  nf_siy_bourbon.1.t
+    desc =  nf_siy_bourbon.1.d
+    is_triggered_only = yes
+    option = {
+        name =  nf_siy_bourbon.1.a
+    }
+}
