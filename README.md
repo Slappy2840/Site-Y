@@ -4,7 +4,6 @@ Yeah,
 whoever decided to come here hi :)
 My names Slappy!!1111!!!!!
 how are youu :)
-im doin' shitty.
 you can look around here I dont really mind,
 not all too interesting but you might like it.
 if you play owb consider it a trailer for the submod :)
